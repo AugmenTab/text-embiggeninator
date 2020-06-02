@@ -37,4 +37,28 @@ main h1 {
     color: #ffffff;
 }
 
+main form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12vh;
+}
+
+#data {
+    justify-self: center;
+    width: 200%;
+    border-width:2px; 
+    border-color:#cccccc; 
+    font-size:24px; 
+    background-color:#99aab5; 
+    color:#2c2f33; 
+    padding:10px; 
+    border-radius:20px; 
+    text-align:center; 
+    border-style:groove;  } 
+}
+
+#data:focus { 
+    outline:none; 
+} 
+
 /* #99aab5 - grey */

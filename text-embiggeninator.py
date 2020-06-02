@@ -4,10 +4,9 @@ import sys, pyperclip
 
 def embiggeninateText(string):
     embiggeninated = []
-    for character in string:
+    for character in string.lower():
         if character.isalpha():
-            alpha = character.lower()
-            embiggeninated.append(':regional_indicator_' + alpha + ':')
+            embiggeninated.append(':regional_indicator_' + character + ':')
         elif character == '!':
             embiggeninated.append(':exclamation:')
         elif character == '?':

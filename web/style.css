@@ -1,0 +1,40 @@
+/* Reset base browser styling. */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+    background: rgb(44,47,51);
+    background: linear-gradient(162deg, rgba(44,47,51,1) 65%, rgba(114,137,218,1) 90%);
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+main img {
+    max-height: 55vh;
+}
+
+main h1 {
+    position: absolute;
+    z-index: 100;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20vh;
+    font-weight: 900;
+    font-variant: small-caps;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* #99aab5 - grey */

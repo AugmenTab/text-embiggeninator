@@ -30,17 +30,29 @@ main h1 {
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20vh;
+    font-size: 8em;
     font-weight: 900;
     font-variant: small-caps;
     text-align: center;
     color: #ffffff;
 }
 
+main h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    color: transparent;
+}
+
+.unhide {
+    color: #ffffff;
+}
+
 main form {
     display: grid;
+    grid-gap: 3vh;
     grid-template-columns: 1fr;
-    padding-top: 12vh;
+    padding-top: 10vh;
 }
 
 #data {
@@ -59,6 +71,29 @@ main form {
 
 #data:focus { 
     outline:none; 
-} 
+}
 
-/* #99aab5 - grey */
+#button {
+    box-shadow: 0px 0px 0px 2px #99aab5;
+	background: rgb(205,0,255);
+    background: linear-gradient(135deg, rgba(205,0,255,1) 0%, rgba(140,158,255,1) 100%);
+	border-radius:20px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-size:19px;
+    font-weight: 900;
+	padding:12px 37px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main p {
+    justify-self: center;
+    color: #ffffff;
+    padding-top: 4vh;
+}
